@@ -7,7 +7,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-from torchtext.legacy.datasets import TranslationDataset
+from torchtext.datasets import TranslationDataset
 from torchtext.data import Field, RawField, BucketIterator,TabularDataset,Dataset,Example
 
 import torch.nn.functional as F
